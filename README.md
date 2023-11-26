@@ -5,15 +5,15 @@ To write a python program to circulate the n variables using function concept
 PC
 Anaconda - Python 3.7
 ## Algorithm: 
-### Step 1: def circulate(variables):
-### Step 2: n = int(input("Enter the number of variables: "))
-### Step 3: variables_list = [int(input(f"Enter value for variable {i + 1}: ")) for i in range(n)]
+### Step 1: Define a function to circulate values
+### Step 2: Input the number of variables (n)
+### Step 3: Input the initial values for the variables
 Get the value from the user for the number of rotation
-### Step 4: rotations = int(input("Enter the number of rotations: "))
+### Step 4: Input the number of rotations
 Using the slicing concept rotate the list
 
-### Step 5: for _ in range(rotations):
-### Step 6: print("Updated values after circulation:", variables_list)
+### Step 5: Circulate the values using the function
+### Step 6: Display the updated values
 ## Program:
 ```
 #Program to circulate N values.
